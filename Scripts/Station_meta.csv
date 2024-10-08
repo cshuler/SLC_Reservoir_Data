@@ -1,0 +1,35 @@
+,id,type,geometry.coordinates,geometry.type,properties.active,properties.batt_1w_slope,properties.batt_alert,properties.batt_alert_off,properties.batt_alert_on,properties.dlnrid,properties.level_alert,properties.level_alert_off,properties.level_alert_on,properties.name,properties.sensor_type
+0,EDD00214,Feature,"[-159.4496, 21.9091]",Point,TRUE,-1.06E-07,1,11.7,11.5,KA-0099,0,17,19,Waita,radar
+1,EDD00CC6,Feature,"[-159.374, 22.2]",Point,TRUE,-9.87E-08,1,11.7,11.5,KA-0010,0,11,12,Waiakalua,radar
+2,EDD01162,Feature,"[-156.3559, 20.8873]",Point,TRUE,-8.70E-08,1,11.7,11.5,MA-0073,0,21,22,HC&S #24,pressure
+3,EDD024F8,Feature,"[-157.8368, 21.3391]",Point,TRUE,-1.34E-07,1,11.7,11.5,OA-0154,0,393,394,Nuuanu No 1,pressure
+4,EDD02A2A,Feature,"[-158.0277, 21.5708]",Point,TRUE,-6.94E-08,1,11.7,11.5,OA-0018,0,980.4,981.4,Opaeula 01,bubbler
+5,EDD0378E,Feature,"[-159.3963, 22.017]",Point,TRUE,-8.21E-08,1,11.7,11.5,KA-0012,0,44,45,Kapaia,radar
+6,EDD0395C,Feature,"[-159.4006, 22.0635]",Point,TRUE,-7.85E-08,1,11.7,11.5,KA-0060,0,29.5,30.5,Wailua,radar
+7,EDD0411E,Feature,"[-159.4936, 21.9128]",Point,TRUE,-9.36E-08,1,11.7,11.5,KA-0103,0,48,49,Aepo,radar
+8,EDD04FCC,Feature,"[-159.4972, 21.922]",Point,TRUE,0,0,11.7,11.5,KA-0104,0,27,28,Huinawai,radar
+9,EDD05268,Feature,"[-159.4882, 21.8967]",Point,TRUE,-5.16E-08,1,11.7,11.5,KA-0112,0,33,34,Aepoeha,bubbler
+10,EDD05CBA,Feature,"[-159.5283, 21.9278]",Point,TRUE,-1.41E-07,1,11.7,11.5,KA-0117,0,21,22,Elua,bubbler
+11,EDD067F2,Feature,"[-159.431, 22.1866]",Point,TRUE,-2.79E-07,2,11.7,11.5,KA-0024,0,9.5,10.5,Kalihiwai,bubbler
+12,EDD06920,Feature,"[-159.4686, 21.9414]",Point,TRUE,-1.15E-07,1,11.7,11.5,KA-0119,0,7,8,Mauka,pressure
+13,EDD07484,Feature,"[-159.3647, 22.0062]",Point,TRUE,0,0,11.7,11.5,KA-0014,0,6.5,7,Okinawa,radar
+14,EDD07A56,Feature,"[-159.5258, 21.9564]",Point,TRUE,-7.83E-08,1,11.7,11.5,KA-0098,0,99,100,Alexander,bubbler
+15,EDD08400,Feature,"[-159.4328, 21.9656]",Point,TRUE,-9.00E-08,1,11.7,11.5,KA-0121,0,20,21,Halenanahu,bubbler
+16,EDD08AD2,Feature,"[-159.4613, 21.9727]",Point,TRUE,5.13E-09,2,11.7,11.5,KA-0120,0,37,38,Papuaa,bubbler
+17,EDD099A4,Feature,"[-157.8049, 21.3905]",Point,TRUE,-5.96E-08,1,11.7,11.5,OA-0124,0,166.3,166.8,Kaneohe,radar
+18,EDD0A2EC,Feature,"[-157.807, 21.3536]",Point,TRUE,-6.32E-08,1,11.7,11.5,OA-0001,0,30,33,Nuuanu No 4,pressure
+19,EDD0AC3E,Feature,"[-159.3713, 22.1316]",Point,TRUE,-5.47E-08,1,11.7,11.5,KA-0015,0,30,30.5,Kaneha,radar
+20,EDD0B19A,Feature,"[-159.3623, 22.1154]",Point,TRUE,-5.31E-08,1,11.7,11.5,KA-0016,0,31.5,32,Mimino,radar
+21,EDD0BF48,Feature,"[-156.2578, 20.9133]",Point,FALSE,-1.53E-07,1,11.7,11.5,MA-0094,0,19,20,Kapalaalea ,pressure
+22,EDD0C70A,Feature,"[-156.3268, 20.9197]",Point,TRUE,0,0,11.7,11.5,MA-0095,0,19,20,Haiku ,pressure
+23,EDD0C9D8,Feature,"[-156.323, 20.9193]",Point,TRUE,0,0,11.7,11.5,MA-0096,0,26,27,Pauwela,pressure
+24,EDD0D47C,Feature,"[-156.3475, 20.9049]",Point,TRUE,-5.99E-08,1,11.7,11.5,MA-0069,0,29,30,#15,pressure
+25,EDD0DAAE,Feature,"[-156.3487, 20.9107]",Point,TRUE,0,0,11.7,11.5,MA-0068,0,17,18,#14,pressure
+26,EDD11398,Feature,"[-157.8155, 21.2976]",Point,TRUE,0,0,11.7,11.5,OA-0000,0,19,20,Test,None
+27,USGS_16208400,,,,,,,,,OA-0025,,,,,
+28,USGS_16094150,,,,,,,,,KA-0030,,,,,
+29,USGS_16210000,,,,,,,,,OA-0017,,,,,
+30,USGS_213320158061401,,,,,,,,,OA-0021,,,,,
+31,USGS_213133158014201,,,,,,,,,OA-0022,,,,,
+32,USGS_213308158035601,,,,,,,,,OA-0023,,,,,
+33,USGS_16206600,,,,,,,,,OA-0156,,,,,
