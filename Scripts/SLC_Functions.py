@@ -98,3 +98,38 @@ def process_SLC_Data_To_daily(directory, std_threshold: int = 3) -> dict:
     return daily_dic
 
 
+''' Same for the USGS data '''
+
+def process_USGS_Data_To_daily(USGS_directory, std_threshold: int = 3) -> dict:
+    daily_dic_USGS = {}
+
+    # Iterate through the files in the given directory
+    for file in os.listdir(USGS_directory):
+        file_path = os.path.join(USGS_directory, file)
+
+        # Read the CSV file, parse 'date' column as dates
+        data = pd.read_csv(file_path, parse_dates=['dateTime'])
+
+        # Standardize cols to UHSLC names 
+        data.rename(columns={'dateTime': 'date'}, inplace=True)  # standardize the date 
+        data.rename(columns={'value': 'data'}, inplace=True)  # standardize the data 
+
+        # Replace invalid values with NaN
+        #data = data.replace(-66577, np.nan)   #### If there are any no datavalues???? 
+
+
+        # Remove outliers beyond the given number of standard deviations 
+        # Doesnt seem to be needed 
+        #data = data[((data['data'] - data['data'].mean()) / data['data'].std()).abs() < std_threshold]
+
+
+       # Note USGS data is already in Hawaii Timezone 
+
+        # Set the 'date' column as index and resample to daily frequency
+        data.set_index('date', inplace=True)
+        data_daily = data.resample('D').mean()
+
+        # Store the resampled daily data in the dictionary
+        daily_dic_USGS[file] = data_daily
+        
+    return daily_dic_USGS
